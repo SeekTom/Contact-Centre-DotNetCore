@@ -1,0 +1,11 @@
+/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/bin/Debug/netcoreapp2.0/TaskRouterDotNetCore.deps.json
+/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/bin/Debug/netcoreapp2.0/TaskRouterDotNetCore.runtimeconfig.json
+/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/bin/Debug/netcoreapp2.0/TaskRouterDotNetCore.runtimeconfig.dev.json
+/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/bin/Debug/netcoreapp2.0/TaskRouterDotNetCore.dll
+/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/bin/Debug/netcoreapp2.0/TaskRouterDotNetCore.pdb
+/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.csproj.CoreCompileInputs.cache
+/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.AssemblyInfoInputs.cache
+/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.AssemblyInfo.cs
+/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.dll
+/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.pdb
+/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.csprojResolveAssemblyReference.cache
