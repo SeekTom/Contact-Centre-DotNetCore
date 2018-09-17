@@ -12360,17 +12360,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/TaskRouterDotNetCore.csproj",
+      "projectUniqueName": "/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/TaskRouterDotNetCore.csproj",
       "projectName": "TaskRouterDotNetCore",
-      "projectPath": "/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/TaskRouterDotNetCore.csproj",
+      "projectPath": "/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/TaskRouterDotNetCore.csproj",
       "packagesPath": "/Users/tcurtis/.nuget/packages/",
-      "outputPath": "/Users/tcurtis/Projects/TaskRouterDotNetCore/TaskRouterDotNetCore/obj",
+      "outputPath": "/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/tcurtis/.config/NuGet/NuGet.Config"
+        "/Users/tcurtis/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12392,23 +12392,22 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
+          "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
+            "version": "[2.0.6, )"
           },
-          "Twilio.AspNet.Core": {
+          "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "5.9.7"
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "11.0.2"
+            "version": "[11.0.2, )"
           },
-          "Microsoft.AspNetCore.All": {
+          "Twilio.AspNet.Core": {
             "target": "Package",
-            "version": "2.0.6"
+            "version": "[5.9.7, )"
           }
         },
         "imports": [

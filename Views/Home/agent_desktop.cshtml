@@ -302,18 +302,9 @@ ViewBag.Title = "Agents";
                 // not a transfer, simply create a new conference and join customer and worker into it
                 var options = {
                     "From": "@ViewBag.caller_id",  // CC's phone number
-                    "PostWorkActivitySid": activitiesDict["Offline"],
-                    "Timeout": "30",
+                    "PostWorkActivitySid": activitiesDict["WrapUp"],
                     "Record": "true",
-                    "RecordingStatusCallback": window.location.protocol +
-                        "//" +
-                        window.location.host +
-                        "/recording_callback",
-                    "ConferenceStatusCallback": window.location.protocol +
-                        "//" +
-                        window.location.host +
-                        "/conference_callback",
-                    "ConferenceStatusCallbackEvent": "start,end,join,leave"
+            
                 };
                 console.log("Starting conference...");
                 console.log(options);
