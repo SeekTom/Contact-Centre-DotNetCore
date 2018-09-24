@@ -12364,13 +12364,13 @@
       "projectName": "TaskRouterDotNetCore",
       "projectPath": "/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/TaskRouterDotNetCore.csproj",
       "packagesPath": "/Users/tcurtis/.nuget/packages/",
-      "outputPath": "/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/obj/",
+      "outputPath": "/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/tcurtis/.nuget/NuGet/NuGet.Config"
+        "/Users/tcurtis/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -12392,22 +12392,23 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.6, )"
-          },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0",
             "autoReferenced": true
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[11.0.2, )"
           },
           "Twilio.AspNet.Core": {
             "target": "Package",
-            "version": "[5.9.7, )"
+            "version": "5.9.7"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "11.0.2"
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.6"
           }
         },
         "imports": [
