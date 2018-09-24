@@ -1,0 +1,11 @@
+/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.csprojResolveAssemblyReference.cache
+/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.csproj.CoreCompileInputs.cache
+/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.AssemblyInfoInputs.cache
+/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.AssemblyInfo.cs
+/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/bin/Debug/netcoreapp2.0/TaskRouterDotNetCore.deps.json
+/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/bin/Debug/netcoreapp2.0/TaskRouterDotNetCore.runtimeconfig.json
+/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/bin/Debug/netcoreapp2.0/TaskRouterDotNetCore.runtimeconfig.dev.json
+/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/bin/Debug/netcoreapp2.0/TaskRouterDotNetCore.dll
+/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/bin/Debug/netcoreapp2.0/TaskRouterDotNetCore.pdb
+/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.dll
+/Users/tcurtis/Documents/GitHub/Contact-Centre-DotNetCore/obj/Debug/netcoreapp2.0/TaskRouterDotNetCore.pdb

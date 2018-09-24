@@ -22,7 +22,7 @@ namespace TaskRouterDotNetCore.Controllers
     public class HomeController : Controller
     {
         protected string _accountSid = Environment.GetEnvironmentVariable("TWILIO_ACME_ACCOUNT_SID");
-        protected string  _authToken = Environment.GetEnvironmentVariable("TWILIO_ACME_AUTH_TOKEN");
+        protected string _authToken = Environment.GetEnvironmentVariable("TWILIO_ACME_AUTH_TOKEN");
         protected string _applicationSid =  Environment.GetEnvironmentVariable("TWILIO_ACME_TWIML_APP_SID");
         protected string _workspaceSid = Environment.GetEnvironmentVariable("TWILIO_ACME_WORKSPACE_SID");
         protected string _workflow_sid =Environment.GetEnvironmentVariable("TWILIO_ACME_WORKFLOW_SID");
@@ -82,7 +82,7 @@ namespace TaskRouterDotNetCore.Controllers
             department.Add("2", "support");
             department.Add("3", "billing");
 
-            var enqueue = new Enqueue(workflowSid: _workflow_sid]);
+            var enqueue = new Enqueue(workflowSid: _workflow_sid);
 
             enqueue.Task("{'selected_product': '" + department[HttpContext.Request.Query["Digits"]] + @"'}");
 
