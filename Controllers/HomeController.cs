@@ -25,10 +25,7 @@ namespace TaskRouterDotNetCore.Controllers
         protected string  _authToken = Environment.GetEnvironmentVariable("TWILIO_ACME_AUTH_TOKEN");
         protected string _applicationSid =  Environment.GetEnvironmentVariable("TWILIO_ACME_TWIML_APP_SID");
         protected string _workspaceSid = Environment.GetEnvironmentVariable("TWILIO_ACME_WORKSPACE_SID");
-        protected string _manager_workflow = Environment.GetEnvironmentVariable("TWILIO_ACME_MANAGER_WORKFLOW_SID");
-        protected string _support_workflow = Environment.GetEnvironmentVariable("TWILIO_ACME_SUPPORT_WORKFLOW_SID");
-        protected string _sales_workflow = Environment.GetEnvironmentVariable("TWILIO_ACME_SALES_WORKFLOW_SID");
-        protected string _billing_workflow = Environment.GetEnvironmentVariable("TWILIO_ACME_BILLING_WORKFLOW_SID");
+        protected string _workflow_sid =Environment.GetEnvironmentVariable("TWILIO_ACME_WORKFLOW_SID");
         protected string _called_id = Environment.GetEnvironmentVariable("TWILIO_ACME_CALLERID");
                     
         class PolicyUrlUtils
@@ -85,12 +82,7 @@ namespace TaskRouterDotNetCore.Controllers
             department.Add("2", "support");
             department.Add("3", "billing");
 
-            Dictionary<string, string> workflowDictionary = new Dictionary<string, string>();
-            workflowDictionary.Add("1", _sales_workflow);
-            workflowDictionary.Add("2", _support_workflow);
-            workflowDictionary.Add("3", _billing_workflow);
-
-            var enqueue = new Enqueue(workflowSid: workflowDictionary[HttpContext.Request.Query["Digits"]]);
+            var enqueue = new Enqueue(workflowSid: _workflow_sid]);
 
             enqueue.Task("{'selected_product': '" + department[HttpContext.Request.Query["Digits"]] + @"'}");
 
@@ -152,7 +144,7 @@ namespace TaskRouterDotNetCore.Controllers
 
                 var task = TaskResource.Create(
                     _workspaceSid, attributes: JsonConvert.DeserializeObject(json).ToString(),
-                    workflowSid: _manager_workflow
+                    workflowSid: _workflow_sid
                 );
                
             }
